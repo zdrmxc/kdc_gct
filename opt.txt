@@ -1,0 +1,56 @@
+==> Args:
+  actions: *
+  batch_size: 512
+  channel: 160
+  checkpoint: ckpt/best/5_8_3
+  crop_uv: 0
+  d_hid: 1024
+  data_augmentation: True
+  dataset: h36m
+  downsample: 1
+  drop: 0.2
+  figure: demo.jpg
+  frames: 1
+  gpu: 0
+  in_channels: 2
+  keypoints: cpn_ft_h36m_dbb
+  large_decay_epoch: 5
+  layers: 3
+  lr: 0.0005
+  lr_decay: 0.95
+  lr_decay_large: 0.5
+  lr_min: 0
+  lr_refine: 1e-05
+  min_lr: 1e-06
+  model: dc_gct_v1
+  model_name: best/5_8_3
+  n_joints: 17
+  nepoch: 30
+  out_all: 1
+  out_channels: 3
+  out_joints: 17
+  pad: 0
+  previous: ckpt
+  previous_best_threshold: inf
+  previous_dir: ./ckpt/your_model
+  previous_name: 
+  previous_refine_name: 
+  refine: False
+  refine_test_reload: False
+  refine_train_reload: False
+  reload: False
+  reverse_augmentation: False
+  root_path: ./dataset/
+  seed: 1
+  stride: 1
+  subjects_test: S9,S11
+  subjects_train: S1,S5,S6,S7,S8
+  subset: 1
+  test: 1
+  test_augmentation: True
+  train: True
+  video: demo.jpg
+  viz: try
+  workers: 0
+==> Args:
+优化训练日志
